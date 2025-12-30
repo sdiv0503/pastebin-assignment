@@ -78,12 +78,10 @@ Redis was chosen as the primary database for several key reasons:
 ## API Endpoints
 
 ### Health Check
-```bash
 GET /api/healthz
 Returns status 200 if application and database are healthy.
 
 ### Create Paste
-```bash
    POST /api/pastes
    Content-Type: application/json
 
@@ -95,13 +93,11 @@ Returns status 200 if application and database are healthy.
 
 
 ### Get Paste
-```bash
    GET /api/pastes/:id
 Returns paste content and metadata. Automatically checks expiry and decrements view count.
 
 ## Project Structure
 
-```bash
    ├── src/
    │ ├── app/
    │ │ ├── api/ # Backend API routes
