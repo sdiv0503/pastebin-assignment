@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Dark mode override if needed, but this is enough for now */
+body {
+  background: #f9fafb;
+}
