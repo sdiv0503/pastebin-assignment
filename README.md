@@ -97,7 +97,7 @@ Returns status 200 if application and database are healthy.
 Returns paste content and metadata. Automatically checks expiry and decrements view count.
 
 ## Project Structure
-
+```bash
    ├── src/
    │ ├── app/
    │ │ ├── api/ # Backend API routes
@@ -108,7 +108,7 @@ Returns paste content and metadata. Automatically checks expiry and decrements v
    │ │ ├── time.ts # Time helper (handles test headers)
    │ │ └── paste-service.ts # Core business logic + Lua scripts
    │ └── types/ # TypeScript interfaces
-
+```
 
 ## Tech Stack
 
