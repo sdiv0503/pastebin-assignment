@@ -42,8 +42,9 @@ Follow these steps to run the project on your machine:
    ```bash
    UPSTASH_REDIS_REST_URL="your_upstash_url"
    UPSTASH_REDIS_REST_TOKEN="your_upstash_token"
-# Optional: Set to '1' to enable strict test mode behaviors
-# TEST_MODE="1"
+   ```
+   Optional: Set to '1' to enable strict test mode behaviors
+   TEST_MODE="1"
 4. **Run the development server:**
    npm run dev
 5. **Open the app:**  Visit http://localhost:3000 in your browser.
